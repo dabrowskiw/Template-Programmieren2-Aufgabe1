@@ -1,6 +1,6 @@
 package org.htw.prog2.aufgabe1;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class SeqFile {
     /**
@@ -23,7 +23,7 @@ public class SeqFile {
      *
      * @return The sequences read from the FASTA file, or an empty HashSet is isValid() is false.
      */
-    public HashSet<String> getSequences() {
+    public LinkedHashSet<String> getSequences() {
         return null;
     }
 
