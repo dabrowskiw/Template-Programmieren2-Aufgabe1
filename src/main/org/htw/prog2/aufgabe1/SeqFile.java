@@ -21,7 +21,7 @@ public class SeqFile {
     }
 
     /**
-     * Adds the sequence in the passed StringBuilder to the internal list and also sets the first sequence if it
+     * Adds the sequence in the passed StringBuilder to the internal hash set and also sets the first sequence if it
      * is still empty.
      * @param seq SequenceBuilder to get the sequence from.
      * @return The length of the added sequence.
