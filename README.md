@@ -96,4 +96,4 @@ Implementieren Sie die Methode ```public static CommandLine parseOptions(String[
 * -r, --references: Pfad zu FASTA-Datei mit der Referenzsequenz. Muss angegeben werden.
 * -p, --patientseqs: Pfad zu FASTA-Datei mit Patientensequenzen. Muss angegeben werden.
 
-Die Methode soll ```null``` zurückgeben, falls eine der erforderlichen Optionen nicht übergeben wurde.
+Die Methode soll mittels eines HelpFormatters eine Fehlermeldung aus- und ```null``` zurückgeben, falls eine der erforderlichen Optionen nicht übergeben wurde.
