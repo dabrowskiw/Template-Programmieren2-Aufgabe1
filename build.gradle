@@ -13,6 +13,12 @@ run {
     args '-m data/HIVMutationPatternsPI.csv -d ProteaseInhibitor -r data/protease_reference.fasta -p data/protease_sequences.fasta'.split(" ")
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
 group 'org.htw.prog2'
 version '1.0-SNAPSHOT'
 
